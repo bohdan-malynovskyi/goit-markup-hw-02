@@ -5,9 +5,9 @@ ul {
     list-style-type: none;
 }
 body {
-    font-family: 'Roboto', 'Raleway', 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #fcfcfc;
+    background-color: #ffffff;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
@@ -15,10 +15,12 @@ body {
     letter-spacing: 0.02em;
 }
 .accent {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 .logo {
-    font-family: 'Raleway';
+    color: #4d5ae5;
+    font-family: 'Raleway',
+        sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -28,11 +30,21 @@ body {
 .nav-links {
     font-weight: 500;
 }
-.studio-link:hover, .link:hover {
+.link {
+    color: #2e2f42;
+}
+.link:focus,  {
     color: #404bbf;
 }
-.studio-link:active {
+.link:active {
     text-decoration-line: underline;
+}
+.address-link {
+    font-style: normal;
+    color: #434455;
+}
+.address-link:hover, .address-link:focus {
+    color: #404bbf;
 }
 .top-section {
     color: #ffffff;
@@ -43,33 +55,70 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 .the-button {
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
     color: #ffffff;
     background-color: #4d5ae5;
     font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.04em;
 }
-.the-button:hover {
+.the-button:hover, .the-button:focus {
     background-color: #404bbf;
 }
 .title-two {
+    color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 .title-three {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
-.text-left {
-    text-align: left;
+.main-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.text-center {
+.the-team {
+    color: #f4f4fd;
     text-align: center;
+}
+.team-members {
+    background-color: #ffffff;
+    text-align: center;
+}
+.profession {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.sphere {
+    color: #434455;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 .bottom-section {
     background-color: #2e2f42;
+}
+.span-bottom {
+    color: #f4f4fd;
+}
+.footer-text {
+    color: #f4f4fd;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
