@@ -33,7 +33,7 @@ body {
 .link {
     color: #2e2f42;
 }
-.link:focus,  {
+.link:focus,  .link:hover{
     color: #404bbf;
 }
 .link:active {
@@ -92,7 +92,7 @@ body {
     letter-spacing: 0.02em;
 }
 .the-team {
-    color: #f4f4fd;
+    background-color: #f4f4fd;
     text-align: center;
 }
 .team-members {
