@@ -39,7 +39,7 @@ body {
 .link:active {
     text-decoration-line: underline;
 }
-.address-link {
+.contacts {
     font-style: normal;
     color: #434455;
 }
