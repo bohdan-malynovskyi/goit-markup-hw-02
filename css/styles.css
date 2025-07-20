@@ -12,7 +12,7 @@ body {
     font-weight: 400;
     font-style: normal;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 .accent {
     color: #4d5ae5;
@@ -22,7 +22,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 3%;  
+    letter-spacing: 0.03em;  
     text-transform: uppercase;
 }
 .nav-links {
@@ -49,7 +49,7 @@ body {
     color: #ffffff;
     background-color: #4d5ae5;
     font-weight: 500;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
 }
 .the-button:hover {
     background-color: #404bbf;
